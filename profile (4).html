@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hriddha - Developer Portfolio</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="brand-text">Hriddha</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="profile.jpeg" alt="Hriddha" class="profile-image">
+                    <div class="profile-glow"></div>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Hriddha</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Web Developer & Bot Creator
+                </p>
+                <p class="hero-description">
+                    Passionate about crafting digital experiences through web development and Discord bot creation. 
+                    Building innovative solutions one line of code at a time.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+            <div class="hero-particles"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2 class="section-title">About Me</h2>
+                <div class="glass-card">
+                    <p class="about-text">
+                        I'm a passionate developer with a keen interest in creating engaging digital experiences. 
+                        My journey in programming has led me to specialize in web development and Discord bot creation, 
+                        where I combine creativity with technical expertise to build meaningful projects.
+                    </p>
+                    <p class="about-text">
+                        When I'm not coding, I enjoy exploring new technologies and contributing to the developer community. 
+                        This portfolio represents my hobby projects and my continuous learning journey in the world of programming.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>AOI.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Specialization</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-discord"></i>
+                                <span>Bot Development</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-globe"></i>
+                                <span>Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <h3 class="project-title">Blitz Soccer Discord Bot</h3>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive Discord bot designed for football enthusiasts. Play interactive soccer games, manage tournaments, challenge friends, and bring the thrill of the sport directly into your Discord server.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Discord.js</span>
+                            <span class="tech-tag">AOI.js</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3 class="project-title">Emoji Battle Royale Bot</h3>
+                        </div>
+                        <p class="project-description">
+                            An engaging Discord bot that creates interactive emoji-based battle-royale game, collect different emojis, complete with rankings, tournaments, and community competitions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Discord.py</span>
+                            <span class="tech-tag">Database</span>
+                            <span class="tech-tag">Game Logic</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <h3 class="project-title">Points Table Maker</h3>
+                        </div>
+                        <p class="project-description">
+                            A dynamic web application for creating and managing sports points tables, 
+                            featuring real-time updates and customizable tournament formats.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            Interested in collaborating or just want to say hello? 
+                            Feel free to reach out through the contact form or email me directly.
+                        </p>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hriddha.contact@gmail.com</span>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Hriddha. Built with passion and lots of coffee ☕</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>
